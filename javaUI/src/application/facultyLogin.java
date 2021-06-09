@@ -13,7 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-
+//author @surajkushvaha
 public class facultyLogin {
 
 		public facultyLogin() {
@@ -40,7 +40,7 @@ public class facultyLogin {
 	    	System.out.println("checking...");
 	    	checkLogin();
 	    }
-
+		//@creativekishore
 	    @FXML
 	    void userRegiister(ActionEvent event) throws IOException {
 	    	System.out.println("Register...");
@@ -112,7 +112,7 @@ public class facultyLogin {
 				e.printStackTrace();
 			}
 	    	
-	    }
+	    }//@skkushvaha @surajkushvaha
 	    private void registerUser() throws IOException{
     		try {
     			Main m=new Main();
@@ -142,3 +142,4 @@ public class facultyLogin {
 	
 
 }
+//@surajkushvaha
