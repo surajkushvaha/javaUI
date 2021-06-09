@@ -7,7 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-
+//author @surajkushvaha
 
 public class Main extends Application {
 	private static Stage stg;
@@ -30,3 +30,4 @@ public class Main extends Application {
 		launch(args);
 	}
 }
+//from Suraj Kushvaha 
