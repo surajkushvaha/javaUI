@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.studentLogin">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="320.0" layoutX="14.0" layoutY="-8.0">
+               <image>
+                  <Image url="@Black%20and%20Red%20Cool%20and%20Funky%20Gaming%20Logo.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="263.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="106.0" fitWidth="109.0" layoutX="67.0" layoutY="14.0">
+               <image>
+                  <Image url="@138-1388174_login-account-icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="23.0" layoutY="200.0" text="Username" textFill="#ff4444" />
+            <Label layoutX="25.0" layoutY="251.0" text="Password" textFill="#ff4444" />
+            <TextField fx:id="username" layoutX="102.0" layoutY="196.0" promptText="username" />
+            <PasswordField fx:id="password" layoutX="102.0" layoutY="247.0" promptText="password" />
+            <Button fx:id="login" layoutX="53.0" layoutY="306.0" mnemonicParsing="false" onAction="#userLogin" style="-fx-background-color: #ff4444;" text="Log in" textFill="#fcfcfc" />
+            <Button fx:id="register" layoutX="133.0" layoutY="306.0" mnemonicParsing="false" onAction="#userRegiister" style="-fx-background-color: #b830fc;" text="Register" textFill="#f8f8f8" />
+            <Label layoutX="95.0" layoutY="132.0" prefHeight="25.0" prefWidth="61.0" text="Student" textFill="#ff4444">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="warningLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="32.0" layoutY="157.0" prefHeight="17.0" prefWidth="198.0" textFill="#f50707" />
+ 
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
